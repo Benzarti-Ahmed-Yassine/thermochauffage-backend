@@ -97,7 +97,8 @@ def calculate():
                 f"Moule {idx+1} :\n"
                 f"  Position : X={x_pos} cm, Y={y_pos} cm\n"
                 f"  Nombre de pièces possibles : {nb_pieces}\n"
-                f"  Matériau du moule : {materiau_moule}\    f"  Matériau du contre-moule : {materiau_contre_moule}\n"
+                f"  Matériau du moule : {materiau_moule}\n"
+                f"  Matériau du contre-moule : {materiau_contre_moule}\n"
                 f"  Matériau de moulage : {materiau_moulage}\n"
                 f"  Température prédite : {temp_predite:.2f} °C\n\n"
             )
